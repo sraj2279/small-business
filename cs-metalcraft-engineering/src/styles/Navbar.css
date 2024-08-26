@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+}
+
+.navbar {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0 10%;
+    justify-content: flex-end;
+    gap: 2rem;
+    font-weight: bold;
+
+
+    width: 100vw;
+    height: 10vh;
+
+}
+
+a {
+    text-decoration: none;
+    color: #095047;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:focus {
+    text-decoration: underline;
+}
+
+
+.site-title {
+    margin-right: auto;
+
+}
+
+#title {
+    width: 10vw;
+    display: flex;
+}
+
+#logo {
+    width: 4vw;
+    display: flex;
+}
