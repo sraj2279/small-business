@@ -1,1 +1,28 @@
-.App {}
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --menubar-height: 5rem;
+}
+
+.App {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+
+header {
+    /* border-style: solid; */
+}
+
+main {
+    /* border-style: solid; */
+    margin-top: var(--menubar-height);
+    min-height: 100vh;
+}
+
+footer {
+    /* border-style: solid; */
+}
