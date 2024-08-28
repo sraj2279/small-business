@@ -28,7 +28,7 @@ export default function Navbar() {
                 <Link className='menu-items' to={'/'}>ABOUT</Link>
                 <Link className='menu-items' to={'/'}>PRODUCTS</Link>
                 <Link className='menu-items' to={'/'}>CLIENTS</Link>
-                <Link className='menu-items' to={'/'}>CONTACT US</Link>
+                <Link className='menu-items' to={'/contact'}>CONTACT US</Link>
 
                 <button className='nav-btn nav-open-btn' onClick={showNavbar}>
                     <FaBars />
@@ -45,7 +45,7 @@ export default function Navbar() {
                 <Link className='mobile-items' to={'/'}>ABOUT</Link>
                 <Link className='mobile-items' to={'/'}>PRODUCTS</Link>
                 <Link className='mobile-items' to={'/'}>CLIENTS</Link>
-                <Link className='mobile-items' to={'/'}>CONTACT US</Link>
+                <Link className='mobile-items' to={'/contact'}>CONTACT US</Link>
             </nav>
 
         </header>
