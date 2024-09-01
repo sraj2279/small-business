@@ -1,6 +1,6 @@
 import React, { useRef } from 'react'
 import { Link } from 'react-router-dom'
-import { FaBars, FaTimes } from 'react-icons/fa'
+import { FaBars, FaTimes, FaPhoneAlt, FaEnvelope} from 'react-icons/fa'
 import '../styles/Navbar.css'
 import logo from '../assets/CS-LOGO.png'
 import title from '../assets/CS-TITLE.png'
@@ -13,6 +13,11 @@ export default function Navbar() {
 
     return (
         <header className='nav-container' ref={navRef}>
+            <div id='block'>
+                    <FaPhoneAlt id='phone-icon'/><div id='phone-text'>+91 940 533 1047 / +91 910 858 8291</div>
+                    <FaEnvelope id='mail-icon'/><div id='mail-text'>csmetalcraftengineering@gmail.com</div>
+            </div>
+
             <nav className='navbar'>
 
                 <Link className='site-logo' to={'/'}>
@@ -25,7 +30,7 @@ export default function Navbar() {
 
 
                 <Link className='menu-items' to={'/'}>HOME</Link>
-                <Link className='menu-items' to={'/'}>ABOUT</Link>
+                <Link className='menu-items' to={'/about'}>ABOUT</Link>
                 <Link className='menu-items' to={'/'}>PRODUCTS</Link>
                 <Link className='menu-items' to={'/'}>CLIENTS</Link>
                 <Link className='menu-items' to={'/contact'}>CONTACT US</Link>
@@ -42,7 +47,7 @@ export default function Navbar() {
 
             <nav className='mobile-nav' onClick={showNavbar}>
                 <Link className='mobile-items' to={'/'}>HOME</Link>
-                <Link className='mobile-items' to={'/'}>ABOUT</Link>
+                <Link className='mobile-items' to={'/about'}>ABOUT</Link>
                 <Link className='mobile-items' to={'/'}>PRODUCTS</Link>
                 <Link className='mobile-items' to={'/'}>CLIENTS</Link>
                 <Link className='mobile-items' to={'/contact'}>CONTACT US</Link>
