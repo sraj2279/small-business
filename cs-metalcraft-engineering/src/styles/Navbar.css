@@ -75,25 +75,17 @@
 
 #block {
     display: flex;
-    height: 2.0rem;
+    height: 2rem;
     background-color: var(--site-green-color);
     color: white;
     padding: 0 15%;
     align-items: center;
     gap: 0.5rem;
-        
+
     #mail-icon {
-        margin-left: auto;     
+        margin-left: auto;
     }
 
-    #mail-text {
-        padding-bottom: 0.2rem;
-    }
-
-    #phone-text {
-        padding-bottom: 0.1rem;
-    }
-    
 }
 
 
