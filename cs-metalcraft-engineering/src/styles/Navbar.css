@@ -1,5 +1,5 @@
 :root {
-    --menubar-height: 5rem;
+    --menubar-height: 7rem;
     --site-green-color: #095047;
 }
 
@@ -21,12 +21,13 @@
     justify-content: flex-end;
     gap: 2rem;
     font-weight: bold;
-    height: var(--menubar-height);
+    height: 5rem;
     width: 100%;
     padding: 0 15%;
 
     border-bottom: var(--site-green-color);
     border-bottom-style: solid;
+    border-bottom-width: 1px;
 }
 
 .menu-items {
@@ -72,6 +73,30 @@
     opacity: 0.5;
 }
 
+#block {
+    display: flex;
+    height: 2.0rem;
+    background-color: var(--site-green-color);
+    color: white;
+    padding: 0 15%;
+    align-items: center;
+    gap: 0.5rem;
+        
+    #mail-icon {
+        margin-left: auto;     
+    }
+
+    #mail-text {
+        padding-bottom: 0.2rem;
+    }
+
+    #phone-text {
+        padding-bottom: 0.1rem;
+    }
+    
+}
+
+
 .mobile-nav {
     display: none;
     flex-direction: column;
@@ -97,6 +122,10 @@
 
 @media only screen and (max-width: 1210px) {
     .menu-items {
+        display: none;
+    }
+
+    #block {
         display: none;
     }
 
