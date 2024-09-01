@@ -1,6 +1,6 @@
 import React, { useRef } from 'react'
 import { Link } from 'react-router-dom'
-import { FaBars, FaTimes, FaPhoneAlt, FaEnvelope} from 'react-icons/fa'
+import { FaBars, FaTimes, FaPhoneAlt, FaEnvelope } from 'react-icons/fa'
 import '../styles/Navbar.css'
 import logo from '../assets/CS-LOGO.png'
 import title from '../assets/CS-TITLE.png'
@@ -13,9 +13,9 @@ export default function Navbar() {
 
     return (
         <header className='nav-container' ref={navRef}>
-            <div id='block'>
-                    <FaPhoneAlt id='phone-icon'/><div id='phone-text'>+91 940 533 1047 / +91 910 858 8291</div>
-                    <FaEnvelope id='mail-icon'/><div id='mail-text'>csmetalcraftengineering@gmail.com</div>
+            <div id='nav-block'>
+                <FaPhoneAlt id='phone-icon' /><div id='phone-text'>+91 940 533 1047 / +91 910 858 8291</div>
+                <FaEnvelope id='mail-icon' /><div id='mail-text'>csmetalcraftengineering@gmail.com</div>
             </div>
 
             <nav className='navbar'>

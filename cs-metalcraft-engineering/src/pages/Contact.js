@@ -4,6 +4,10 @@ import '../styles/Contact.css'
 export default function Contact() {
     return (
         <main id='contact-page'>
+            <div id='contact-block'>
+                <div>CONTACT US</div>
+            </div>
+
             <div id="contact-container">
 
                 <div id='info-container' className='contact-item'>
