@@ -14,37 +14,42 @@ export default function Navbar() {
     return (
         <header className='nav-container' ref={navRef}>
             <div id='nav-block'>
-                <FaPhoneAlt id='phone-icon' /><div id='phone-text'>+91 940 533 1047 / +91 910 858 8291</div>
-                <FaEnvelope id='mail-icon' /><div id='mail-text'>csmetalcraftengineering@gmail.com</div>
+                <div id='nav-block-container'>
+                    <FaPhoneAlt id='phone-icon' /><div id='phone-text'>+91 940 533 1047 / +91 910 858 8291</div>
+                    <FaEnvelope id='mail-icon' /><div id='mail-text'>csmetalcraftengineering@gmail.com</div>
+                </div>
             </div>
+            <div id='navbar-block'>
+                <nav className='navbar'>
 
-            <nav className='navbar'>
+                    <Link className='site-logo' to={'/'}>
+                        <img id='logo' src={logo} alt='CS-LOGO' />
+                    </Link>
 
-                <Link className='site-logo' to={'/'}>
-                    <img id='logo' src={logo} alt='CS-LOGO' />
-                </Link>
-
-                <Link className='site-title' to={'/'}>
-                    <img id='title' src={title} alt='CS-TITLE' />
-                </Link>
+                    <Link className='site-title' to={'/'}>
+                        <img id='title' src={title} alt='CS-TITLE' />
+                    </Link>
 
 
-                <Link className='menu-items' to={'/'}>HOME</Link>
-                <Link className='menu-items' to={'/about'}>ABOUT</Link>
-                <Link className='menu-items' to={'/'}>PRODUCTS</Link>
-                <Link className='menu-items' to={'/'}>CLIENTS</Link>
-                <Link className='menu-items' to={'/contact'}>CONTACT US</Link>
+                    <Link className='menu-items' to={'/'}>HOME</Link>
+                    <Link className='menu-items' to={'/about'}>ABOUT</Link>
+                    <Link className='menu-items' to={'/'}>PRODUCTS</Link>
+                    <Link className='menu-items' to={'/'}>CLIENTS</Link>
+                    <Link className='menu-items' to={'/contact'}>CONTACT US</Link>
 
-                <button className='nav-btn nav-open-btn' onClick={showNavbar}>
-                    <FaBars />
-                </button>
+                    <button className='nav-btn nav-open-btn' onClick={showNavbar}>
+                        <FaBars />
+                    </button>
 
-                <button className='nav-btn nav-close-btn' onClick={showNavbar}>
-                    <FaTimes />
-                </button>
+                    <button className='nav-btn nav-close-btn' onClick={showNavbar}>
+                        <FaTimes />
+                    </button>
 
-            </nav>
+                </nav>
 
+
+
+            </div>
             <nav className='mobile-nav' onClick={showNavbar}>
                 <Link className='mobile-items' to={'/'}>HOME</Link>
                 <Link className='mobile-items' to={'/about'}>ABOUT</Link>
