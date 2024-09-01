@@ -40,6 +40,7 @@
 
 .menu-items:focus {
     text-decoration: underline;
+    color: var(--site-green-color);
 }
 
 
