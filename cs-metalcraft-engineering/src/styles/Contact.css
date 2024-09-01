@@ -1,14 +1,28 @@
 #contact-page {
     display: flex;
+    /* flex-direction: column; */
     justify-content: center;
     background-color: lightgrey;
     width: 100vw;
+    flex-wrap: wrap;
+}
+
+#contact-block {
+    display: flex;
+    width: 100%;
+    background-color: var(--site-black-color);
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height: 15rem;
+    font-size: 4rem;
+    text-align: center;
 }
 
 #contact-container {
     display: flex;
     min-height: 100%;
-    width: 70%;
+    width: 90rem;
     background-color: white;
 
 }
@@ -41,9 +55,9 @@
 }
 
 .info-title {
-    font-size: 1.5rem;
-    font-weight: bold;
-    text-decoration: underline;
+    font-size: 2rem;
+    /* font-weight: bold; */
+    color: var(--site-green-color);
 }
 
 #map {

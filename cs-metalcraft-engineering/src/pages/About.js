@@ -4,16 +4,21 @@ import '../styles/About.css'
 export default function About() {
     return (
         <main id='about-page'>
+
+            <div id='about-block'>
+                <div>ABOUT US</div>
+            </div>
+
             <div id='about-container'>
                 <div className='about-item'>
-                    <div className='about-title'>ABOUT US</div>
+                    <div className='about-title'>WHO WE ARE</div>
                     <div className='text-container'>
                         <p>
-                            We are a team of professional tool makers, with extensive experience, who understands what customer needs are and try to fulfill those requirements in an appropriate span of time with suitable prices.
+                            We are a dedicated team of skilled metalworkers, united by our passion for craftsmanship and precision. With years of experience in the industry, we bring together a diverse range of expertise, from traditional techniques to modern innovations. Our partnership is built on a shared commitment to excellence, delivering high-quality metalwork solutions that meet the unique needs of our clients. Whether it’s custom fabrication, intricate designs, or large-scale projects, we pride ourselves on our attention to detail and our ability to bring our clients’ visions to life.
                         </p>
 
                         <p>
-                            We could be of great support to you and work for your venture and your cooperation in our goal will be highly appreciated.
+                            At the heart of our work is a deep respect for the materials we craft and the people we serve. We believe in forging strong relationships with our clients, collaborating closely to ensure every project is completed to the highest standards. Our mission is to be your trusted partner in metalworking, providing reliable, durable, and beautifully crafted solutions that stand the test of time.
                         </p>
                     </div>
                 </div>
@@ -22,7 +27,7 @@ export default function About() {
                     <div className='about-title'>OUR MOTTO</div>
                     <div className='text-container'>
                         <p>
-                            Take care for the needs of the customer by supplying quality products and continuously improving utilization of resources to achieve, Total Customer Satisfaction and Continuous Growth.
+                            Our motto is to prioritize customer needs by delivering high-quality products and continuously improving resource utilization, striving for total customer satisfaction and sustained growth.
                         </p>
                     </div>
                 </div>
