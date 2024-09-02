@@ -35,14 +35,14 @@ export default function About() {
                 <div className='about-item'>
                     <div className='about-title'>ABOUT OUR FIRM</div>
                     <div className='text-container'>
-                        <p>Type of firm : Partnership</p>
-                        <p>Name of partners : Mr. V K Sudhir Nair & Mr. Chelladurai T (SUNNY)</p>
-                        <p>Date of Establishment : 18th Nov. 2023</p>
-                        <p>GSTN : 30AASFC2912K1ZJ</p>
+                        <p>Type of firm: Partnership</p>
+                        <p>Name of partners: Mr. V K Sudhir Nair & Mr. Chelladurai T (SUNNY)</p>
+                        <p>Date of Establishment: 18th Nov. 2023</p>
+                        <p>GSTN: 30AASFC2912K1ZJ</p>
                     </div>
                 </div>
 
-                <div className='about-item'>
+                {/* <div className='about-item'>
                     <div className='about-title'>FUTURE EXPANSION PLAN</div>
                     <div className='text-container'>
                         <ul>
@@ -53,7 +53,7 @@ export default function About() {
                             <li>Purchase of electric oven for material hardening</li>
                         </ul>
                     </div>
-                </div>
+                </div> */}
 
 
                 {/* <div className='about-item'>
