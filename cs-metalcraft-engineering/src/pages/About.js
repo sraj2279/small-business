@@ -42,7 +42,7 @@ export default function About() {
                     </div>
                 </div>
 
-                <div className='about-item'>
+                {/* <div className='about-item'>
                     <div className='about-title'>FUTURE EXPANSION PLAN</div>
                     <div className='text-container'>
                         <ul>
@@ -53,7 +53,7 @@ export default function About() {
                             <li>Purchase of electric oven for material hardening</li>
                         </ul>
                     </div>
-                </div>
+                </div> */}
 
 
                 {/* <div className='about-item'>

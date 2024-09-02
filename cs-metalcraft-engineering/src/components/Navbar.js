@@ -33,8 +33,7 @@ export default function Navbar() {
 
                     <Link className='menu-items' to={'/'}>HOME</Link>
                     <Link className='menu-items' to={'/about'}>ABOUT</Link>
-                    <Link className='menu-items' to={'/'}>PRODUCTS</Link>
-                    <Link className='menu-items' to={'/'}>CLIENTS</Link>
+                    <Link className='menu-items' to={'/products'}>PRODUCTS</Link>
                     <Link className='menu-items' to={'/contact'}>CONTACT US</Link>
 
                     <button className='nav-btn nav-open-btn' onClick={showNavbar}>
@@ -53,8 +52,7 @@ export default function Navbar() {
             <nav className='mobile-nav' onClick={showNavbar}>
                 <Link className='mobile-items' to={'/'}>HOME</Link>
                 <Link className='mobile-items' to={'/about'}>ABOUT</Link>
-                <Link className='mobile-items' to={'/'}>PRODUCTS</Link>
-                <Link className='mobile-items' to={'/'}>CLIENTS</Link>
+                <Link className='mobile-items' to={'/products'}>PRODUCTS</Link>
                 <Link className='mobile-items' to={'/contact'}>CONTACT US</Link>
             </nav>
 
