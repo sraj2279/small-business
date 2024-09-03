@@ -1,5 +1,5 @@
 import React, { useRef } from 'react'
-import { Link } from 'react-router-dom'
+import { Link, NavLink } from 'react-router-dom'
 import { FaBars, FaTimes, FaPhoneAlt, FaEnvelope } from 'react-icons/fa'
 import '../styles/Navbar.css'
 import logo from '../assets/CS-LOGO.png'
@@ -31,10 +31,10 @@ export default function Navbar() {
                     </Link>
 
 
-                    <Link className='menu-items' to={'/'}>HOME</Link>
-                    <Link className='menu-items' to={'/about'}>ABOUT</Link>
-                    <Link className='menu-items' to={'/products'}>PRODUCTS</Link>
-                    <Link className='menu-items' to={'/contact'}>CONTACT US</Link>
+                    <NavLink className='menu-items' to={'/'}>HOME</NavLink>
+                    <NavLink className='menu-items' to={'/about'}>ABOUT</NavLink>
+                    <NavLink className='menu-items' to={'/products'}>PRODUCTS</NavLink>
+                    <NavLink className='menu-items' to={'/contact'}>CONTACT US</NavLink>
 
                     <button className='nav-btn nav-open-btn' onClick={showNavbar}>
                         <FaBars />
