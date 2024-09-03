@@ -1,10 +1,12 @@
 #products-page {
     display: flex;
-    flex-direction: column;
+    /* flex-direction: column;
     align-items: flex-start;
-    align-items: center;
+    align-items: center; */
+    justify-content: center;
     background-color: lightgrey;
     width: 100vw;
+    flex-wrap: wrap;
 }
 
 #products-block {
@@ -24,9 +26,11 @@
     min-height: 100vh;
     width: 90rem;
     background-color: white;
-    padding: 2rem 3rem;
+    padding: 2rem 2rem;
     align-items: center;
     /* border-style: solid; */
+
+    margin: 1rem 1rem;
 }
 
 .products-title {

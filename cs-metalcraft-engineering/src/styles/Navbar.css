@@ -40,7 +40,7 @@
     text-decoration: underline;
 }
 
-.menu-items:focus {
+.active {
     text-decoration: none;
     color: var(--site-green-color);
 }

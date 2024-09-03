@@ -1,6 +1,5 @@
 #contact-page {
     display: flex;
-    /* flex-direction: column; */
     justify-content: center;
     background-color: lightgrey;
     width: 100vw;
@@ -25,10 +24,12 @@
     width: 90rem;
     background-color: white;
 
+    margin: 1rem 1rem;
+
 }
 
 .contact-item {
-    padding: 2rem 3rem;
+    padding: 2rem 2rem;
     /* border-style: solid; */
 }
 

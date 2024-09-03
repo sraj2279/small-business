@@ -26,13 +26,15 @@
     background-color: white;
     gap: 2rem;
     padding: 2rem 0;
+
+    margin: 1rem 1rem;
 }
 
 .about-item {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 0rem 3rem 0rem 3rem;
+    padding: 0rem 2rem;
     /* border-style: solid; */
     gap: 1rem;
 
