@@ -15,7 +15,7 @@ export default function Contact() {
 
                     <div className='info-item'>
                         <div className='item-title'>Trading Hours</div>
-                        <div>Mon-Fri: 8:30AM - 5PM</div>
+                        <div>Mon-Sat: 8:30AM - 5PM</div>
                     </div>
 
                     <div className='info-item'>

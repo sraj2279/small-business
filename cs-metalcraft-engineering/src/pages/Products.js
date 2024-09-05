@@ -10,6 +10,11 @@ import vb1 from '../assets/v-block1.png'
 import vb2 from '../assets/v-block2.png'
 import v1 from '../assets/vice.png'
 import bv1 from '../assets/bench-vice1.png'
+import sm1 from '../assets/sheet-metal-die1.png'
+import pt1 from '../assets/press-tools1.jpg'
+import pt2 from '../assets/press-tools2.jpg'
+import pt3 from '../assets/press-tools3.webp'
+import ps1 from '../assets/press-set1.webp'
 
 export default function Products() {
     return (
@@ -19,35 +24,42 @@ export default function Products() {
             </div>
 
             <div id='products-container'>
-                <div className='products-title'>OUR GALLERY</div>
+                <div className='products-title'>OUR PRODUCTS</div>
                 <div id='products-grid'>
                     <div className='grid-item'>
-                        <img src={ap1} alt='angle-plate1' className='grid-image' />
+                        <img src={ap1} alt='angle plate 1' className='grid-image' />
                         <div className='grid-item-text'>ANGLE PLATE</div>
                     </div>
                     <div className='grid-item'>
-                        <img src={ap2} alt='angle-plate2' className='grid-image' />
+                        <img src={ap2} alt='angle plate 2' className='grid-image' />
                         <div className='grid-item-text'>ANGLE PLATE</div>
                     </div>
                     <div className='grid-item'>
-                        <img src={ap3} alt='angle-plate3' className='grid-image' />
+                        <img src={ap3} alt='angle plate 3' className='grid-image' />
                         <div className='grid-item-text'>ANGLE PLATE</div>
                     </div>
                     <div className='grid-item'>
-                        <img src={rd1} alt='riveting-die1' className='grid-image' />
+                        <img src={rd1} alt='riveting die 1' className='grid-image' />
                         <div className='grid-item-text'>RIVETING DIE</div>
                     </div>
                     <div className='grid-item'>
-                        <img src={parallel_blocks} alt='parallel_blocks' className='grid-image' />
+                        <img src={sm1} alt='sheet metal die 1' className='grid-image' />
+                        <div className='grid-item-text'>SHEET METAL DIE</div>
+                    </div>
+                    <div className='grid-item'>
+                        <img src={parallel_blocks} alt='parallel blocks' className='grid-image' />
                         <div className='grid-item-text'>PARALLEL BLOCKS</div>
                     </div>
-
                     <div className='grid-item'>
-                        <img src={vb1} alt='vblock1' className='grid-image' />
+                        <img src={pt1} alt='press tools' className='grid-image' />
+                        <div className='grid-item-text'>PRESS TOOLS</div>
+                    </div>
+                    <div className='grid-item'>
+                        <img src={vb1} alt='v block 1' className='grid-image' />
                         <div className='grid-item-text'>V BLOCKS</div>
                     </div>
                     <div className='grid-item'>
-                        <img src={vb2} alt='vblock2' className='grid-image' />
+                        <img src={vb2} alt='v block 2' className='grid-image' />
                         <div className='grid-item-text'>V BLOCKS</div>
                     </div>
                     <div className='grid-item'>
@@ -55,12 +67,24 @@ export default function Products() {
                         <div className='grid-item-text'>VICE</div>
                     </div>
                     <div className='grid-item'>
-                        <img src={sh1} alt='square-head1' className='grid-image' />
+                        <img src={sh1} alt='square head 1' className='grid-image' />
                         <div className='grid-item-text'>SQUARE HEAD</div>
                     </div>
                     <div className='grid-item'>
-                        <img src={bv1} alt='bench-vice1' className='grid-image' />
+                        <img src={bv1} alt='bench vice 1' className='grid-image' />
                         <div className='grid-item-text'>BENCH VICE</div>
+                    </div>
+                    <div className='grid-item'>
+                        <img src={pt2} alt='press tools 2' className='grid-image' />
+                        <div className='grid-item-text'>PRESS TOOLS</div>
+                    </div>
+                    <div className='grid-item'>
+                        <img src={pt3} alt='press tools 3' className='grid-image' />
+                        <div className='grid-item-text'>PRESS TOOLS</div>
+                    </div>
+                    <div className='grid-item'>
+                        <img src={ps1} alt='press set 1' className='grid-image' />
+                        <div className='grid-item-text'>PRESS TOOLS</div>
                     </div>
                 </div>
             </div>
