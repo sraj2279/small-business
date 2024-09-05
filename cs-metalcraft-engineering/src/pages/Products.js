@@ -74,7 +74,6 @@ export default function Products() {
                         <img src={bv1} alt='bench vice 1' className='grid-image' />
                         <div className='grid-item-text'>BENCH VICE</div>
                     </div>
-
                     <div className='grid-item'>
                         <img src={pt2} alt='press tools 2' className='grid-image' />
                         <div className='grid-item-text'>PRESS TOOLS</div>
