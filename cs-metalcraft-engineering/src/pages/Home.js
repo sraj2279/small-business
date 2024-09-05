@@ -4,7 +4,6 @@ import { Link } from 'react-router-dom'
 
 import vb2 from '../assets/v-block2.png'
 import pb1 from '../assets/parallel-blocks.png'
-import bv1 from '../assets/bench-vice1.png'
 import rd1 from '../assets/riveting-die1.png'
 import ap3 from '../assets/angle-plate3.png'
 
@@ -21,7 +20,7 @@ export default function Home() {
                 <div className='home-item' id='home-about-block'>
                     <div id='home-title'>WELCOME TO <span id='home-title-2'>C.S. METALCRAFT ENGINEERING</span></div>
                     <div id='about-text'>
-                        <p>We are a dedicated team of skilled metalworkers, united by our passion for craftsmanship and precision. With years of experience in the industry, we bring together a diverse range of expertise, from traditional techniques to modern innovations. Our partnership is built on a shared commitment to excellence, delivering high-quality metalwork solutions that meet the unique needs of our clients. Whether it's custom fabrication, intricate designs, or large-scale projects, we pride ourselves on our attention to detail and our ability to bring our clients' visions to life.</p>
+                        <p>We are a dedicated team of expert tool and die makers, combining precision, craftsmanship, and innovation to deliver high-quality solutions for a wide range of industries. With extensive experience in designing and manufacturing custom tools, dies, and plastic injection moulds, we take pride in our ability to meet the most demanding specifications and ensure superior performance.</p>
                     </div>
                     <div className='button-wrapper'><Link className='view-button' to={'/about'}>VIEW MORE</Link></div>
                 </div>

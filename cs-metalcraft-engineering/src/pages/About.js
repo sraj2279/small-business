@@ -14,11 +14,14 @@ export default function About() {
                     <div className='about-title'>WHO WE ARE</div>
                     <div className='text-container'>
                         <p>
-                            We are a dedicated team of skilled metalworkers, united by our passion for craftsmanship and precision. With years of experience in the industry, we bring together a diverse range of expertise, from traditional techniques to modern innovations. Our partnership is built on a shared commitment to excellence, delivering high-quality metalwork solutions that meet the unique needs of our clients. Whether it’s custom fabrication, intricate designs, or large-scale projects, we pride ourselves on our attention to detail and our ability to bring our clients’ visions to life.
+                            We are a dedicated team of expert tool and die makers, combining precision, craftsmanship, and innovation to deliver high-quality solutions for a wide range of industries. With extensive experience in designing and manufacturing custom tools, dies, and plastic injection moulds, we take pride in our ability to meet the most demanding specifications and ensure superior performance.
                         </p>
 
                         <p>
-                            At the heart of our work is a deep respect for the materials we craft and the people we serve. We believe in forging strong relationships with our clients, collaborating closely to ensure every project is completed to the highest standards. Our mission is to be your trusted partner in metalworking, providing reliable, durable, and beautifully crafted solutions that stand the test of time.
+                            Our partnership is built on a foundation of technical expertise and a commitment to quality. We work closely with our clients, from concept to completion, to provide tailored solutions that enhance efficiency and productivity. Whether it's prototyping, production tooling, or maintenance, we focus on precision, reliability, and durability in every project.
+                        </p>
+                        <p>
+                            At the core of our business is a dedication to excellence and customer satisfaction. We are your trusted partner for all tool and die needs, delivering solutions that help your operations run smoothly and efficiently.
                         </p>
                     </div>
                 </div>
