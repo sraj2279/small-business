@@ -2,10 +2,10 @@ import React from 'react'
 import '../styles/Home.css'
 import { Link } from 'react-router-dom'
 
-import vb2 from '../assets/v-block2.png'
-import pb1 from '../assets/parallel-blocks.png'
-import rd1 from '../assets/riveting-die1.png'
-import ap3 from '../assets/angle-plate3.png'
+import sm1 from '../assets/sheet-metal-die1.png'
+import pt2 from '../assets/press-tools2.jpg'
+import pt3 from '../assets/press-tools3.webp'
+import ps1 from '../assets/press-set1.webp'
 
 
 
@@ -29,24 +29,20 @@ export default function Home() {
                     <div id='home-products-title'>OUR PRODUCTS</div>
                     <div id='slideshow'>
                         <div className='g-item'>
-                            <img src={vb2} alt='vblock2' className='g-image' />
-                            <div className='g-item-text'>V BLOCKS</div>
+                            <img src={sm1} alt='sheet metal die 1' className='g-image' />
+                            <div className='g-item-text'>SHEET METAL DIE</div>
                         </div>
                         <div className='g-item'>
-                            <img src={pb1} alt='vblock2' className='g-image' />
-                            <div className='g-item-text'>PARALLEL BLOCKS</div>
+                            <img src={pt2} alt='press tools 2' className='g-image' />
+                            <div className='g-item-text'>PRESS TOOLS</div>
                         </div>
                         <div className='g-item'>
-                            <img src={rd1} alt='vblock2' className='g-image' />
-                            <div className='g-item-text'>RIVETING DIE</div>
+                            <img src={pt3} alt='press tools 3' className='g-image' />
+                            <div className='g-item-text'>PRESS TOOLS</div>
                         </div>
-                        {/* <div className='g-item'>
-                            <img src={bv1} alt='vblock2' className='g-image' />
-                            <div className='g-item-text'>V BLOCKS</div>
-                        </div> */}
                         <div className='g-item'>
-                            <img src={ap3} alt='vblock2' className='g-image' />
-                            <div className='g-item-text'>ANGLE PLATE</div>
+                            <img src={ps1} alt='press set 1' className='g-image' />
+                            <div className='g-item-text'>PRESS TOOLS</div>
                         </div>
                     </div>
 
