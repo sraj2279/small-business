@@ -40,7 +40,7 @@ export default function Contact() {
 
 
                         <div>
-                            <div>L-116 B, Verna Industrial Estate</div>
+                            <div>S-98, Verna Industrial Estate</div>
                             <div>Verna, Goa 403722, India</div>
                         </div>
 
@@ -49,10 +49,14 @@ export default function Contact() {
 
                 <div id='google-container' className='contact-item'>
                     <div className='info-title' >FIND US</div>
-                    <div id='map' styles="width: 100%">
-                        <iframe title='google-map' width="100%" height="600px" frameborder="0" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=Prakash%20Corrugated%20Products,%20Verna+()&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a href="https://www.gps.ie/">gps tracker sport</a></iframe>
+                    <div id='map' >
+                        <iframe title='google-map' width="100%" height="600px" frameborder="0" marginheight="0" marginwidth="0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=milagros verna industrial estate&amp;t=k&amp;z=18&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
                     </div>
                 </div>
+
+
+
+
 
             </div>
         </main>

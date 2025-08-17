@@ -52,7 +52,7 @@ export default function Home() {
                 <div id='home-google-container'>
                     <div id='home-google-title' >FIND US</div>
 
-                    <iframe title='google-map' id='google-map' height="600px" frameborder="0" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=Prakash%20Corrugated%20Products,%20Verna+()&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a href="https://www.gps.ie/">gps tracker sport</a></iframe>
+                    <iframe title='google-map' id='google-map' width="100%" height="600px" frameborder="0" src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=milagros verna industrial estate&amp;t=k&amp;z=18&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
 
                     <div className='button-wrapper'><Link className='view-button' to={'/contact'}>VIEW MORE</Link></div>
                 </div>
